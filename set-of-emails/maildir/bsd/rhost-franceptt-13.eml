@@ -1,0 +1,118 @@
+Return-Path: <>
+Delivered-To: xxxx@xxxx.xxxx.net
+Received: by xxxx.xxxx.net (Postfix)
+	id 1757211342AE; Wed, 18 Dec 2019 13:21:34 +0100 (CET)
+Delivered-To: xxxx@xxxx.xxxx.net
+Received: from xxxx.xxxx.fr (xxxx.xxxx.fr [10.0.0.1])
+	by xxxx.xxxx.net (Postfix) with ESMTP id 0EDE011342A5
+	for <xxxx@xxxx.com>; Wed, 18 Dec 2019 13:21:34 +0100 (CET)
+Received: by xxxx.xxxx.fr (Postfix)
+	id CE4EA219FF; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Date: Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+From: MAILER-DAEMON@xxxx.fr (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: xxxx@xxxx.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7CF61219F0.1576671693/xxxx.xxxx.fr"
+Message-Id: <20191218122133.CE4EA219FF@xxxx.fr>
+
+This is a MIME-encapsulated message.
+
+--7CF61219F0.1576671693/xxx.xxxx.fr
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host xxxx.xxxxx.fr.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<xxxx@laposte.net>: host smtpz4.laposte.net[194.117.213.1] said: 571 5.7.1
+    Message refused, DMARC verification Failed. Message refuse, verification
+    DMARC en echec LPN007_517 (in reply to end of DATA command)
+
+--7CF61219F0.1576671693/xxxx.xxxx.fr
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; smtpout1.xxxx.fr
+X-Postfix-Queue-ID: 7CF61219F0
+X-Postfix-Sender: rfc822; xxxxq@xxxx.com
+Arrival-Date: Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+
+Final-Recipient: rfc822; xxxx@laposte.net
+Original-Recipient: rfc822;xxxx@laposte.net
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; smtpz4.laposte.net
+Diagnostic-Code: smtp; 571 5.7.1 Message refused, DMARC verification Failed.
+    Message refuse, verification DMARC en echec LPN007_517
+
+--7CF61219F0.1576671693/xxxx.xxxx.fr
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+
+Return-Path: <xxxx@xxxx.com>
+Received: from xxxx.fr (mta1.ac-grenoble.fr [10.0.0.1])
+	by xxxx.xxxx.fr (Postfix) with ESMTP id 7CF61219F0
+	for <xxxx@laposte.net>; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxxx.xxxx.fr (xxxx.xxxx.fr [10.0.0.1])
+	by mta1.ac-grenoble.fr (Postfix) with ESMTP id 76B0B20814
+	for <xxxx@laposte.net>; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxxx.xxxx.fr (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 5F20A2004D
+	for <xxxx@laposte.net>; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxxx.xxxx.fr (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 4072520040
+	for <xxxx@laposte.net>; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxxx.xxxx.fr (unknown [10.0.0.1])
+	by xxxx.xxxx.fr (Postfix) with ESMTP
+	for <xxxx@laposte.net>; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxx.xxxx.fr ([10.0.0.1])
+ by xxx.xxx.xxx
+ (Oracle Communications Messaging Server 8.0.1.1.0 64bit (built Jun 15 2016))
+ with ESMTP id <0Q2P01PWMJNXZIC0@xxxx.fr> for
+ xxxx@laposte.net (ORCPT xxxxx@xxxx.fr); Wed,
+ 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxxx.xxxx.fr (xxxx.xxxx.fr [10.0.0.1])
+	by xxxx.xxxx..fr (Postfix) with ESMTP id 2794C20814	for
+ <xxxx@xxxx.fr>; Wed, 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from xxxx.fr (unknown [127.0.0.1])	by IMSVA (Postfix)
+ with ESMTP id 0E8892004D	for <xxxx@xxxx.fr>; Wed,
+ 18 Dec 2019 13:21:33 +0100 (CET)
+Received: from imsva4.ac-grenoble.fr (unknown [127.0.0.1])	by IMSVA (Postfix)
+ with ESMTP id E1D6820040	for <xxxx@xxxx.fr>; Wed,
+ 18 Dec 2019 13:21:32 +0100 (CET)
+Received: from xxxx.xxxx.fr (unknown [194.214.200.9])
+	by xxxx.xxxx.fr (Postfix)
+ with ESMTPS	for <xxxx@xxxx.fr>; Wed,
+ 18 Dec 2019 13:21:32 +0100 (CET)
+Received: from xxxx.xxxx.net
+ (regiesmtp1311-1.xxxx.net [127.0.0.1])	by xxxx.xxxx.fr (asm)
+ with ESMTP id 88CE161B9C	for <xxxx@xxxx.fr>; Wed,
+ 18 Dec 2019 13:21:32 +0100 (CET)
+Message-id:
+ <1576671692.xxxx@xxxxx.com>
+Feedback-Id: 69648:1065
+Precedence: bulk
+From: xxxx
+ <xxxx@xxxx.com>
+To: xxxx@xxxx.fr
+Reply-to: avis@avis-verifies.com
+Content-type: text/html; charset=utf-8
+Subject: xxxxx
+Content-disposition: inline
+Content-transfer-encoding: quoted-printable
+MIME-version: 1.0
+Date: Wed, 18 Dec 2019 13:21:32 +0100
+
+--7CF61219F0.1576671693/smtpout1.xxxx.xxxx--

@@ -29,6 +29,7 @@ my $ErrorCodes = {
     '505' => undef,           # 421 4.2.1 Service refuse. Veuillez essayer plus tard. Service refused, please try later. LPN007_505
     '506' => 'spamdetected',  # Mail rejete. Mail rejected. OFR_506 [506]
     '510' => 'blocked',       # Veuillez essayer plus tard. service refused, please try later. LPN004_510
+    '517' => 'policyviolation', # 571 5.7.1 Message refused, DMARC verification Failed. Message refuse, verification DMARC en echec LPN007_517
     '513' => undef,           # Mail rejete. Mail rejected. OUK_513
     '514' => 'mesgtoobig',    # Taille limite du message atteinte
 };
