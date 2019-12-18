@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: xxxx@xxxx.xxxx.net
+Received: by xxxx.xxxx.net (Postfix)
+	id 8C8ED25C26; Wed, 18 Dec 2019 08:22:58 +0100 (CET)
+Delivered-To: xxxx@xxxxx.xxxx.net
+Received: from xxxxx.xxxx.net (unknown [10.0.0.1])
+	by xxxx.xxxx.net (Postfix) with ESMTP id 8B7DE25C25
+	for <xxxx@xxxx.fr>; Wed, 18 Dec 2019 08:22:58 +0100 (CET)
+Received: by xxxx.xxxx.net (Postfix)
+	id 8A15932406AD; Wed, 18 Dec 2019 08:22:58 +0100 (CET)
+Date: Wed, 18 Dec 2019 08:22:58 +0100 (CET)
+From: MAILER-DAEMON@xxxx.xxxx.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: xxxx@xxxx.fr
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="6B1A7315C82D.1576653778/xxxx.xxxx.net"
+Message-Id: <20191218072258.xxxx@xxxx.net>
+
+This is a MIME-encapsulated message.
+
+--6B1A7315C82D.1576653778/xxxx.xxxx.net
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host xxxx.xxxx.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<xxxx@laposte.net>: host smtpz4.laposte.net[194.117.213.1] said:
+    421 4.2.1 Service refuse. Veuillez essayer plus tard. Service refused,
+    please try later. LPN007_505 (in reply to end of DATA command)
+
+--6B1A7315C82D.1576653778/xxxx.xxxx.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; xxxx.xxxx.net
+X-Postfix-Queue-ID: 6B1A7315C82D
+X-Postfix-Sender: rfc822; xxxx@xxxx.fr
+Arrival-Date: Tue, 17 Dec 2019 19:52:19 +0100 (CET)
+
+Final-Recipient: rfc822; xxxx@laposte.net
+Original-Recipient: rfc822;xxxx@laposte.net
+Action: failed
+Status: 4.2.1
+Remote-MTA: dns; smtpz4.laposte.net
+Diagnostic-Code: smtp; 421 4.2.1 Service refuse. Veuillez essayer plus tard.
+    Service refused, please try later. LPN007_505
+
+--6B1A7315C82D.1576653778/xxxx.xxxx.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <xxxx@xxxx.fr>
+Message-Id: <1576608739.xxxx@xxxx.fr>
+Feedback-Id: 329:1508
+Precedence: bulk
+From: <xxxx@xxxx.fr>
+To: xxxx@laposte.net
+Content-Type: text/html; charset=utf-8
+Subject: xxxx
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Date: Tue, 17 Dec 2019 19:52:19 +0100
+
+xxxx
+
+--6B1A7315C82D.1576653778/xxxx.xxxx.net--
